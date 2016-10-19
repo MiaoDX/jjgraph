@@ -29,9 +29,9 @@ A pretty good job,thanks a lot,there are lots of pretty good softwares just fade
 
 Just ignore it,if really want full function,change to linux should be better ^.^
 
-4.Error like `no j3d dll` in windows.(Since after I installed the java3d,this won't appear again,even I uninstall it,so just `like`).
+4.Error like `Couldn't link 3D library` in windows.
 
-Anyhow,We should `install` Java3d.
+Anyhow,We should `install` Java3d(If we want to use the `Tools->View 3D`).
 [www.java3d.org/tutorial.html](http://www.java3d.org/tutorial.html) and [www.ntu.edu.sg/home/ehchua/programming/opengl/Java3D.html](https://www.ntu.edu.sg/home/ehchua/programming/opengl/Java3D.html) can be some help.Escepilly the latter one,we should download and install java3d first.(I thought just add jars through `pom.xml` is enough,well,too yong too simple -.-).
 
 And in `toos->View 3D`,`Stereo vision not supported by hardware` can happen,this is because we didn't make the extra configuration,in `Java 3D 1.5.1 Release Notes`(can be seen after install) metioned that in windows OpenGl and DirectX can be used to enhance performace,we do not care it here.
